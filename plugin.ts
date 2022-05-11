@@ -1,7 +1,6 @@
 
 import { JSXAttributeOrSpread, JSXAttribute, SpreadElement, StringLiteral } from "@swc/core"
 import { Visitor } from "@swc/core/Visitor.js";
-import exp from "constants";
 
 
 // Defining the input type that the SWC Plugin will receive
