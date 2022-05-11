@@ -21,7 +21,6 @@ transform(sourceCode, {
     },
     transform: {},
   },
-  // Using the plugin defined above
   plugin: m => new ImplicitClassAttrs({ classList }).visitProgram(m),
 })
   .then((output) => {
